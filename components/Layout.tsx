@@ -22,7 +22,7 @@ export default function Layout({
                 <meta name="keywords" content={keywords} />
             </Head>
             <Header />
-            <main>{children}</main>
+            <main className="container mx-auto">{children}</main>
         </>
     )
 }
