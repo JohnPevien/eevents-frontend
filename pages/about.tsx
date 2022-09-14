@@ -1,5 +1,10 @@
-type Props = {};
+import Layout from '../components/Layout'
+type Props = {}
 
 export default function About({}: Props) {
-  return <div>about</div>;
+    return (
+        <Layout title="About Eevents">
+            <div>About</div>
+        </Layout>
+    )
 }
