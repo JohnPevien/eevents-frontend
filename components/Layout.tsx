@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 type Props = {
     title?: string
@@ -23,6 +24,7 @@ export default function Layout({
             </Head>
             <Header />
             <main className="container mx-auto">{children}</main>
+            <Footer />
         </>
     )
 }
